@@ -1,0 +1,21 @@
+{
+  "private": false,
+  "name": "vue-filters",
+  "version": "1.0.0",
+  "description": "This is nothing but custom general filters and mixins",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vue serve src/FilterTest.vue",
+    "build": "bili --name index --plugin vue --vue.css false"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "Syed Arif Iqbal",
+  "license": "ISC",
+  "devDependencies": {
+    "bili": "^4.8.1",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
