@@ -15,9 +15,10 @@ const Filters = {
         let x = Math.round(value);
         let x_number_format = x.toLocaleString();
         let x_array = x_number_format.split(',');
+
         let suffex = ['k', 'm', 'b', 't'];
         let x_count_parts = x_array.length - 1;
-        let returnString = `${x_array[0]}${Number(x_array[1][0]) !== 0 ? '.' . x_array[1][0] : ''}`;
+        let returnString = `${x_array[0]}${Number(x_array[1][0]) !== 0 ? '.' + x_array[1][0] : ''}`;
         returnString += suffex[x_count_parts - 1];
         return returnString;
     },

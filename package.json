@@ -1,12 +1,12 @@
 {
   "private": false,
   "name": "vue2-pipes",
-  "version": "1.0.1",
-  "description": "This is nothing but custom general filters and mixins",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Vue Pipes allow you to use many useful filters/pipes.",
+  "main": "./dist/index.js",
   "scripts": {
     "dev": "vue serve src/FilterTest.vue",
-    "build": "bili --name index --plugin vue --vue.css false"
+    "build": "bili --name src/index --plugin vue --vue.css false"
   },
   "files": [
     "dist/*"
@@ -20,5 +20,11 @@
   },
   "dependencies": {
     "vue2-filters": "^0.9.1"
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue-filters",
+    "vue-pipes",
+    "vue-mixins"
+  ]
 }
