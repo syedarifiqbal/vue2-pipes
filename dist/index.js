@@ -1,5 +1,5 @@
 /*!
- * vue2-pipes v1.0.1
+ * vue2-pipes v1.0.2
  * (c) Syed Arif Iqbal
  * Released under the ISC License.
  */
